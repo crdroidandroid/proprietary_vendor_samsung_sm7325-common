@@ -284,13 +284,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libVkLayer_q3dtools \
@@ -466,7 +459,6 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
-    libstagefright_soft_qtiflacdec \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsynx \
@@ -516,7 +508,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.thermal@1.0 \
-    libOmxDsdDec \
     lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
@@ -529,7 +520,6 @@ PRODUCT_PACKAGES += \
     libcirrusspkrprot_vendor \
     libcomprcapture_vendor \
     libdrc \
-    libdsd2pcm \
     libexthwplugin_vendor \
     libhdmiedid_vendor \
     libhdmipassthru_vendor \
