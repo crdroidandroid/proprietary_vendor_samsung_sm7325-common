@@ -1020,4 +1020,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.health@2.1-samsung \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.thermal@1.0-manifest
+    vendor.samsung.hardware.thermal@1.0-manifest \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
