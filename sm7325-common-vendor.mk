@@ -258,13 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin
 
 PRODUCT_PACKAGES += \
-    com.qti.chiusecaseselector \
-    com.qti.settings.kamorta \
-    com.qti.settings.kodiak \
-    com.qti.settings.mannar \
-    com.qti.settings.sdm865 \
-    com.qti.settings.sm8350 \
-    com.qti.stats.common \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -273,7 +266,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
-    camera.unihal.default \
     sound_trigger.primary.lahaina \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
@@ -297,30 +289,13 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudioconfigstore \
     libbatching \
-    libbitmlengine \
-    libbitmlenginev2 \
     libbthost_if \
     libc2d30_bltlib \
     libcacertclient \
-    libcamera_nn_stub \
-    libcamerapostproc \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxqsatalgo \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
     libcdsprpc \
-    libchilog \
-    libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
     libcvp2_1 \
@@ -352,8 +327,6 @@ PRODUCT_PACKAGES += \
     libgsl \
     libhdr_tm \
     libidl \
-    libipebpsstriping \
-    libipebpsstriping170 \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -371,24 +344,16 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libminkdescriptor \
     libminksocket \
-    libmmcamera_mfnr \
     libmmosal \
-    libmpbase \
     libmulawdec \
     liboemcrypto \
-    libofflinedump \
-    libofflinelog \
-    libopencv \
     libops \
-    libos \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libqcbor \
     libqcc_file_agent \
     libqcci_legacy \
@@ -400,7 +365,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqcwrappercommon \
     libqdcm-mode-parser \
     libqdi \
     libqdma_file_agent \
@@ -428,12 +392,6 @@ PRODUCT_PACKAGES += \
     libqti-util \
     librcmask \
     librpmb \
-    libscveCommon \
-    libscveCommon_stub \
-    libscveObjectSegmentation \
-    libscveObjectSegmentation_stub \
-    libscveObjectTracker \
-    libscveObjectTracker_stub \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-diag \
@@ -444,8 +402,6 @@ PRODUCT_PACKAGES += \
     libsecril-client_vendor \
     libsecureui_svcsock \
     libsemnativecarrierfeature \
-    libsensorlistener \
-    libsensorndkbridge \
     libsensorslog \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
@@ -459,22 +415,14 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
-    libswregistrationalgo \
     libsynergy_loc_api \
-    libsynx \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libthermalclient \
-    libthreadutils \
     libtime_genoff \
     libtinyxml2_1 \
-    libtriplecam_image_optical_zoom \
     libtrustedapploader \
-    libuniplugin \
     libxml \
-    unihal_cutils@2.15 \
-    unihal_main@2.15 \
-    unihal_uniplugin@1.0 \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -490,7 +438,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.gnss@4.0 \
     vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.cvp@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.iop@1.0 \
@@ -544,26 +491,77 @@ PRODUCT_PACKAGES += \
     libswspatializer \
     spatializer-aidl-V1-cpp \
     vendor.qti.hardware.audiohalext@1.0 \
+    com.qti.chiusecaseselector \
+    com.qti.settings.kamorta \
+    com.qti.settings.kodiak \
+    com.qti.settings.mannar \
+    com.qti.settings.sdm865 \
+    com.qti.settings.sm8350 \
+    com.qti.stats.common \
     com.qualcomm.qti.ant@1.0 \
+    camera.unihal.default \
     gatekeeper.mdfpp \
     libSNPE \
     libSemDataProps \
     libSemTelephonyProps \
+    libbitmlengine \
+    libbitmlenginev2 \
     libc++_shared \
+    libcamera_nn_stub \
+    libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxqsatalgo \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libchilog \
+    libcom.qti.chinodeutils \
     libengmode_client \
     libhypervintf \
+    libipebpsstriping \
+    libipebpsstriping170 \
     libkeymaster_helper \
     liblearningmodule \
     libmeters \
+    libmmcamera_mfnr \
+    libmpbase \
     libnanopb \
+    libofflinedump \
+    libofflinelog \
+    libopencv \
+    libos \
+    libqcwrappercommon \
     libreffeature \
     libremosaiclib \
     libril_sem \
+    libscveCommon \
+    libscveCommon_stub \
+    libscveObjectSegmentation \
+    libscveObjectSegmentation_stub \
+    libscveObjectTracker \
+    libscveObjectTracker_stub \
     libsec-ril \
+    libsensorlistener \
+    libsensorndkbridge \
     libskeymaster4device \
     libsnpe_dsp_domains_v3 \
     libsnpe_wrapper \
+    libswregistrationalgo \
+    libsynx \
+    libthreadutils \
+    libtriplecam_image_optical_zoom \
+    libuniplugin \
     libvkmanager_vendor \
+    unihal_cutils@2.15 \
+    unihal_main@2.15 \
+    unihal_uniplugin@1.0 \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fm@1.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.radio.bridge@2.0 \
