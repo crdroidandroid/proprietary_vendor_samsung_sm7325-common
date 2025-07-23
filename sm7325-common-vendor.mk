@@ -423,6 +423,9 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libxml \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -484,9 +487,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     libasphere \
-    libqcbassboost \
-    libqcreverb \
-    libqcvirt \
     libshoebox \
     libswspatializer \
     spatializer-aidl-V1-cpp \
@@ -629,3 +629,11 @@ PRODUCT_PACKAGES += \
     thermal-engine \
     time_daemon \
     xtra-daemon
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
