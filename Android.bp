@@ -1064,11 +1064,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdpps.so"],
-			shared_libs: ["libcutils", "libdisp-aba", "libqdutils", "libutils", "liblog", "libbinder", "libdrm", "libtinyxml2", "libhidlbase", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libdisp-aba", "libqdutils", "libutils", "liblog", "libbinder", "libdrm", "libtinyxml2-v34", "libhidlbase", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdpps.so"],
-			shared_libs: ["libcutils", "libdisp-aba", "libqdutils", "libutils", "liblog", "libbinder", "libdrm", "libtinyxml2", "libhidlbase", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libdisp-aba", "libqdutils", "libutils", "liblog", "libbinder", "libdrm", "libtinyxml2-v34", "libhidlbase", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -3081,11 +3081,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsnapdragoncolor-manager.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2", "libsdmutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2-v34", "libsdmutils", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsnapdragoncolor-manager.so"],
-			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2", "libsdmutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libutils", "libdisplaydebug", "libsdm-color", "libbinder", "libtinyxml2-v34", "libsdmutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
